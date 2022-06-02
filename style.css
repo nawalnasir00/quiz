@@ -1,0 +1,110 @@
+body {
+	padding: 0;
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+	background-image: url('background.jpg');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: 100% 100%;
+		font-family: 'Raleway', sans-serif;
+
+	
+}
+
+.panel {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+.question-container {
+	margin: 10px;
+	padding: 5px;
+	width: 80vw;
+	height: 10vh;
+	background-color: #c7dddf;
+	font-size: x-large;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+.result {
+	margin: 10px;
+	padding: 5px;
+	width: 80vw;
+	height: 10vh;
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+.option-container {
+	display: flex;
+	justify-content: space-around;
+	margin: 10px;
+	padding: 5px;
+	width: 80vw;
+	height: 20vh;
+	background-color: #c9dbdd8e;
+	font-family: 'Raleway', sans-serif;
+	border-radius: 12px;
+
+}
+
+.option {
+	padding: 10px;
+	width: 15vw;
+	height: 10vh;
+	font-size: larger;
+	background-color: rgb(159, 196, 218);
+	border-radius: 25%;
+	font-family: 'Raleway', sans-serif;
+	border-radius: 12px;
+}
+
+.option:hover {
+	background-color: lightgoldenrodyellow;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+.navigation {
+	width: 80vw;
+	height: 10vh;
+	margin: 10px;
+	padding: 5px;
+	display: flex;
+	justify-content: space-around;
+	background-color: #c7dddf;
+	font-family: 'Raleway', sans-serif;
+	border-radius: 12px;
+}
+
+.evaluate,
+.next {
+	width: 30vw;
+	height: 8vh;
+	padding: 5px;
+	font-size: larger;
+	font-family: 'Raleway', sans-serif;
+}
+
+.evaluate {
+
+	background-color: #9dcabd;
+	font-family: 'Raleway', sans-serif;
+	border-radius: 12px;
+}
+
+.next {
+	color: white;
+	background-color: #a57a76;
+	font-family: 'Raleway', sans-serif;
+	border-radius: 12px;
+}
